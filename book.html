@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./bootstrap/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
+
+  <title>Royal Salon</title>
+ 
+</head>
+<body>
+<!--section1--> 
+<nav class="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="./images/logo.png" alt="" width="100" height="100" class="d-inline-block align-text-top">
+      
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-column-reverse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active " aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="team.html">Team</a>
+        </li>
+        <li class="nav-item" id="btn101">
+          <a href="book.html"><button type="submit" class="btn btn-primary ">Book Now</button></a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<!--  Banner  -->
+
+<div class="p-5 mb-4 bg-light rounded-3">
+  <div class="container-fluid py-5 mt-20">
+    <h1 class="display-5 fw-bold text-center"> Book Your Appoinment</h1>
+    <p class="col-12 fs-4 text-center">
+      Reserve Your Spot at Our Salon and Enjoy the Best Services
+    </p>
+  </div>
+</div>
+
+<!--  End Banner  -->
+
+<!-- content -->
+<div class="container">
+<div class="row justify-conetent-center my-5">
+  
+<div class="col-lg-6 mx-auto">
+  
+<form>
+  
+
+
+<label for="name" class="form-label">Name:</label>
+<input type="text" placeholder="Sakuna Adheep" class="form-control" id="name">
+
+<label for="email" class="form-label">Email:</label>
+<input type="email" placeholder="sakuna@gmail.com" class="form-control" id="email">
+
+<label for="phone" class="form-label">Phone:</label>
+<input type="number" placeholder="076-222-3333" class="form-control" id="phone">
+
+<label for="subject" class="form-label">Select Service:</label>
+<select id="subject" class="form-select">
+  <option value="HairCut" selected>Hair Services</option>
+  <option value="HairColor">Nail Services</option>
+  <option value="HairWash">Body Services</option>
+  <option value="facial">Skin Services</option>
+  <option value="noidea">Makeup Services</option>
+  <option value="noidea">Special Services</option>
+  <option value="noidea">Bridal Dressing Services</option>
+  <option value="noidea">Treatment Services</option>
+</select>
+
+<div class="form-floating mt-3">
+<textarea id="query" class="form-control" style="height: 140px;"></textarea>
+<label for="query" class="form-label">Enter Your Message! :</label>
+</div>
+
+<div class="mb-4 text-center mt-3">
+  <button type="submit" class="btnsubmit btn-primary">Book Appoinment</button>
+</div>
+
+</form>
+
+</div>
+
+</div>
+</div>
+<!-- End Content -->
+
+<!--Footer Section== Design & Develop By Savindu Senanayake-->
+
+<div class="container rounded">
+  <footer class="py-3 my-4">
+     
+     <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+       <a href="index.html"><li class="nav-item mx-2">Home</li></a>
+       <a href="services.html"><li class="nav-item mx-2">Services</li></a>
+       <a href="about.html"><li class="nav-item mx-2">About Us</li></a>
+       <a href="contact.html"><li class="nav-item mx-2">Contact Us</li></a>
+       <a href="book.html"><li class="nav-item mx-2">Bookings</li></a>
+     </ul>
+     <p class="text-center text-muted"> © 2022 Design & Develop By Savindu Senanayake.</p>
+    
+  </footer>
+</div>
+
+
+
+
+<script src="./bootstrap/js/bootstrap.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./bootstrap/js/bootstrap.bundle.js"></script>
+<script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+<!--script src="./bootstrap/js/script.js"></script-->
+<script type="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
